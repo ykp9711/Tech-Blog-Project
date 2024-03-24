@@ -13,4 +13,9 @@ public class testController {
     public String home() {
         return "index";
     }
+
+    @GetMapping(value = "/2")
+    public String home2() {
+        return "layouts/sidebar";
+    }
 }

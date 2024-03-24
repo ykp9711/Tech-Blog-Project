@@ -52,14 +52,7 @@
 				.appendTo($body);
 
 		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
-			)
-				.appendTo($body)
+			$('#navPanel')
 				.panel({
 					delay: 500,
 					hideOnClick: true,
